@@ -370,7 +370,7 @@ const Dashboard: React.FC = () => {
              )}
           </div>
 
-          {/* Graphique en barres de l'évolution mensuelle */}
+          {/* Graphique en barres de l'évolution mensuelle && Barchart, CartesianGrid et YAxis sont des composants de la bibliothèque recharts */}
           <div className="bg-white rounded-lg shadow p-6">
             <h3 className="text-lg font-semibold text-gray-900 mb-4">
               Évolution des dépenses (6 mois)
@@ -387,6 +387,7 @@ const Dashboard: React.FC = () => {
                   <Tooltip formatter={(value) => formatCurrency(value as number)} />
                   <Bar dataKey="total" fill="#3B82F6" />
                 </BarChart>
+                
               </ResponsiveContainer>
             ) : (
               <div className="flex flex-col items-center justify-center h-64 text-gray-500">

@@ -1,4 +1,5 @@
-import React, { useState, useEffect, ChangeEvent, FormEvent } from 'react';
+import React, { useState, useEffect } from 'react';
+import type { ChangeEvent, FormEvent } from 'react';
 import { User, Camera, Save, X } from 'lucide-react';
 import axios from 'axios';
 import toast from 'react-hot-toast';

@@ -13,3 +13,5 @@ export default defineConfig({
     extensions: ['.mjs', '.js', '.ts', '.jsx', '.tsx', '.json']
   }
 })
+
+//ajout de server et les extensions
